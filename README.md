@@ -2,7 +2,8 @@
 
 ## Step 1: Creating Docker Containers
 ```shell
-  docker compose up -d
+  cd load-balancer
+  sudo docker compose up -d
 ```
 ## Step 2: Verify the Load Balancer
 Run the following command in your terminal to check how load balancer works by making multiple requests to the Nginx server. 
