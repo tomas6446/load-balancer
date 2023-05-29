@@ -4,9 +4,11 @@
 ```shell
   sudo pacman -Syu
   sudo pacman -S docker docker-compose
+  sudo pacman -S git
 ```
 ## Step 2: Creating Docker Containers
 ```shell
+  git clone https://github.com/tomas6446/load-balancer
   cd load-balancer
   sudo docker compose up -d
 ```
